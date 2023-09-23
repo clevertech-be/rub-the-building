@@ -32,6 +32,15 @@
       }
     },
     {
+      "title": "link.mission",
+      "link": "/mission",
+      "meta": {
+        "title": "mission.meta.title",
+        "description": "mission.meta.description",
+        "keywords": ["mission"]
+      }
+    },
+    {
       "title": "link.blog",
       "link": "/blog",
       "meta": {
