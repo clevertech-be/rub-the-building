@@ -7,7 +7,7 @@ export default function Testimonials({ testimonials }) {
     <section className='' id='testimonials'>
       <div className='py-4 px-2 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
-          <h2 className='mb-4 text-xl md:text-4xl tracking-tight font-extrabold text-black'>
+          <h2 className='mb-4 text-lg md:text-xl md:text-4xl tracking-tight font-extrabold text-black'>
             {t('home.testimonials.title')}
           </h2>
           <p className='font-light text-black/80 sm:text-xl '>

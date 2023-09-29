@@ -7,7 +7,7 @@ export default function Services({ services }) {
     <section className='bg-primary-500 text-background-950'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-md text-center mb-8 lg:mb-16'>
-          <h2 className='mb-4 text-4xl tracking-tight font-extrabold'>
+          <h2 className='mb-4 text-xl md:text-4xl tracking-tight font-extrabold'>
             {t('home.services.title')}
           </h2>
           <p className='font-light sm:text-xl'>{t('home.services.description')}</p>

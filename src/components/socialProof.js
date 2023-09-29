@@ -5,7 +5,7 @@ export default function SocialProof() {
   return (
     <section className='text-background-950 bg-primary-500'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
-        <h2 className='mb-4 text-4xl tracking-tight font-extrabold  lg:text-5xl '>
+        <h2 className='mb-4 text-xl md:text-4xl tracking-tight font-extrabold  lg:text-5xl '>
           {t('about.socialProof.title')}
         </h2>
         <p className='font-light sm:text-lg sm:px-8 lg:px-32 xl:px-64 '>
