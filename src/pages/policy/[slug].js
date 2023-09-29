@@ -18,7 +18,7 @@ export default function PolicyDetail() {
   return (
     <Layout>
       {policy && (
-        <h1 className='text-xl md:text-4xl font-bold'>{t(`policy.${policy.name}.page`)}</h1>
+        <h1 className='text-xl md:text-4xl font-bold pt-20'>{t(`policy.${policy.name}.page`)}</h1>
       )}
     </Layout>
   )

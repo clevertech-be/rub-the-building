@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 250, 250, 255;
+  --background-start-rgb: 250, 250, 255;
+  --background-end-rgb: 250, 250, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 250, 250, 255;
+    --background-start-rgb: 250, 250, 255;
+    --background-end-rgb: 250, 250, 255;
   }
 }
 
@@ -71,7 +71,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
   background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb));
 }

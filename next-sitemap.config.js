@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'http://preview.rubthebuilding.com', // TODO: Change this to your domain
+  siteUrl: 'http://rubthebuilding.be',
   generateRobotsTxt: true,
 }

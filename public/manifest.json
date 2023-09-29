@@ -1,7 +1,7 @@
 {
   "name": "rubthebuilding",
-  "short_name": "Rub The Building",
-  "description": "Rub The Building professional cleaning, housemade, moving services",
+  "short_name": "rubthebuilding",
+  "description": "Rub the building",
   "icons": [
     {
       "src": "/favicon/android-chrome-36x36.png",
@@ -50,9 +50,9 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#ffffff",
+  "background_color": "#DC2028",
   "orientation": "portrait",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#ffffff"
+  "theme_color": "#DC2028"
 }

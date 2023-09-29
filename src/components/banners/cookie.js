@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { hasCookie, setCookie } from 'cookies-next'
-import { Button } from '../button'
+import PrimaryButton from '../button'
 import Link from 'next/link'
 import { useTranslate } from '../../hooks/useTranslate'
 
@@ -34,7 +34,7 @@ export default function Cookie() {
                 </Link>
               </span>
             </div>
-            <Button message='Accept' onClick={() => acceptCookie()} />
+            <PrimaryButton message='Accept' onClick={() => acceptCookie()} />
           </div>
         </div>
       </div>

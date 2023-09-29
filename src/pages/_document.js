@@ -11,11 +11,20 @@ export default class CustomDocument extends Document {
   render() {
     return (
       <Html lang={injected.defaultLocale}>
-        <Head />
+        <Head>
+          <link
+            href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css'
+            rel='stylesheet'
+          />
+        </Head>
         {GA_TRACKING_ID && <GtagScript />}
         <body>
           <Main />
           <NextScript />
+          <script
+            async
+            src='https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js'
+          />
         </body>
       </Html>
     )

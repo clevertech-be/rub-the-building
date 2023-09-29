@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://rubthebuilding.com
+Host: http://rubthebuilding.be/
 
 # Sitemaps
-Sitemap: http://rubthebuilding.com/sitemap.xml
+Sitemap: http://rubthebuilding.be/sitemap.xml

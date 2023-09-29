@@ -1,15 +1,16 @@
 {
-  "keywords": ["building", "cleaning", "services", "professional"],
-  "title": "Rub the Building",
-  "description": "Rub the Building",
+  "keywords": ["clevertech", "web", "design", "logo", "agency", "digital", "marketing", "seo"],
+  "title": "Clevertech digital agency",
+  "description": "Clevertech digital agency",
+  "buisinessHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
   "manifest": {
-    "projectShortName": "Rub the Building",
-    "themeColor": "#ffffff",
-    "url": "https://www.rubthebuilding.be/",
-    "description": "Rub the Building",
+    "projectShortName": "Clevertech digital agency",
+    "themeColor": "#DC2028",
+    "url": "https://www.clevertech.be/",
+    "description": "Clevertech digital agency",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#ffffff"
+    "backgroundColor": "#DC2028"
   },
   "gtag": "G-xxxxxxxxxx",
   "pages": [
@@ -32,52 +33,149 @@
       }
     },
     {
-      "title": "link.mission",
-      "link": "/mission",
+      "title": "link.services",
+      "link": "/services",
       "meta": {
-        "title": "mission.meta.title",
-        "description": "mission.meta.description",
-        "keywords": ["mission"]
+        "title": "services.meta.title",
+        "description": "services.meta.description",
+        "keywords": ["services"]
       }
+    }
+  ],
+  "services": [
+    {
+      "title": "service.1.title",
+      "description": "service.1.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service1"
+    },
+
+    {
+      "title": "service.2.title",
+      "description": "service.2.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service2"
     },
     {
-      "title": "link.blog",
-      "link": "/blog",
-      "meta": {
-        "title": "blog.meta.title",
-        "description": "blog.meta.description",
-        "keywords": ["blog", "articles", "news"]
-      }
+      "title": "service.3.title",
+      "description": "service.3.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service3"
     },
     {
-      "title": "link.contact",
-      "link": "/contact",
-      "meta": {
-        "title": "contact.meta.title",
-        "description": "contact.meta.description",
-        "keywords": ["contact"]
-      }
+      "title": "service.4.title",
+      "description": "service.4.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service4"
+    },
+    {
+      "title": "service.5.title",
+      "description": "service.5.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service5"
+    },
+    {
+      "title": "service.6.title",
+      "description": "service.6.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service6"
+    },
+    {
+      "title": "service.7.title",
+      "description": "service.7.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service7"
+    },
+    {
+      "title": "service.8.title",
+      "description": "service.8.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service8"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "testimonial.1.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.1.role",
+      "testimonial": "testimonial.1.description"
+    },
+    {
+      "name": "testimonial.2.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.2.role",
+      "testimonial": "testimonial.2.description"
+    },
+    {
+      "name": "testimonial.3.name",
+      "avatar": "/images/testimonials/bonnie-green.png",
+      "role": "testimonial.3.role",
+      "testimonial": "testimonial.3.description"
+    }
+  ],
+  "faqs": [
+    {
+      "title": "faq.1.title",
+      "description": "faq.1.description"
+    },
+    {
+      "title": "faq.2.title",
+      "description": "faq.2.description"
+    },
+    {
+      "title": "faq.3.title",
+      "description": "faq.3.description"
+    },
+    {
+      "title": "faq.4.title",
+      "description": "faq.4.description"
+    },
+    {
+      "title": "faq.5.title",
+      "description": "faq.5.description"
+    }
+  ],
+  "usps": [
+    {
+      "name": "usp1",
+      "title": "usp1.title",
+      "description": "usp1.description",
+      "icon": "/icons/usp/1.svg",
+      "messageLink": "usp1.messageLink",
+      "link": "/mission#usp1"
+    },
+    {
+      "name": "usp2",
+      "title": "usp2.title",
+      "description": "usp2.description",
+      "icon": "/icons/usp/2.svg",
+      "messageLink": "usp2.messageLink",
+      "link": "/mission#usp2"
+    },
+    {
+      "name": "usp3",
+      "title": "usp3.title",
+      "description": "usp3.description",
+      "icon": "/icons/usp/3.svg",
+      "messageLink": "usp3.messageLink",
+      "link": "/mission#usp3"
     }
   ],
   "socials": [
     {
       "title": "facebook",
-      "link": "https://www.facebook.com"
+      "link": "https://www.facebook.com/clevertech"
     },
     {
       "title": "instagram",
-      "link": "https://www.instagram.com"
+      "link": "https://www.instagram.com/"
     },
     {
       "title": "linkedin",
-      "link": "https://www.linkedin.com"
+      "link": "https://www.linkedin.com/clevertech"
     }
   ],
   "sla": [
-    {
-      "title": "@ 2023 Rub the Building SPRL",
-      "link": "/"
-    },
     {
       "title": "Privacy Policy",
       "link": "/policy/privacy"
@@ -95,9 +193,9 @@
     "url": "https://goo.gl/maps/3PUt1WiDQX2icvds5",
     "address": "Chau. de Wavre 1341, 1160 Auderghem, Belgique"
   },
-  "companyName": "Rub the Building SRL",
-  "tel": "+32474299576",
-  "email": "info@clevertech.be",
+  "companyName": "Clevertech SRL",
+  "tel": "+32488203567",
+  "email": "contact@clevertech.be",
   "tva": "BE 2220.556.668",
   "locales": ["fr", "nl", "en"],
   "defaultLocale": "en",

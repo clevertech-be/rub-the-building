@@ -1,18 +1,18 @@
-# Rub The Building
+# Rub the building Website
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/clevertech-be/rub-the-building/blob/master/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/clevertech-be/rub-the-building/commits/master)
 
 <br />
 <p align="center">
-  <h3 align="center">Rub The Building</h3>
+  <h3 align="center">Rub the building Website</h3>
 
   <p align="center">
     <br />
     <a href="https://github.com/clevertech-be/rub-the-building/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rubthebuilding.be/">View Demo</a>
+    <a href="https://rub-the-building.be/">View Demo</a>
     ·
     <a href="https://github.com/clevertech-be/rub-the-building/issues">Report Bug</a>
     ·
@@ -57,9 +57,3 @@ Hamza Mounir - hamza@clevertech.be
 Rachid Asli - rachid@clevertech.be
 
 ## Link
-
-## TimeSheet
-
-### 31/08 - 2h
-
-- [x] design sytem + temp structure starter plan

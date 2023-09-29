@@ -1,44 +1,27 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Layout from '../components/layout'
-import Newsletter from '../components/cards/newsletter'
-import ContactForm from '../components/forms/contact'
-import { useTranslate } from '../hooks/useTranslate'
-import Container from '../components/container'
+import Testimonials from '../components/testimonials'
 import Faq from '../components/faq'
-import ContactCard from '../components/cards/contact'
+import Contact from '../components/contact'
+import injected from '../injected.json'
+import Container from '../components/container'
+import InfoBox from '../components/infoBox'
+import { SecondaryButton } from '../components/button'
+import { useTranslate } from '../hooks/useTranslate'
+import Heading from '../components/heading'
 
-export default function Contact() {
+export default function ContactUs() {
   const { t } = useTranslate()
-  const [formSuccess, setFormSuccess] = useState()
-  const [formError, setFormError] = useState()
-
-  const handleSubmit = (event) => {
-    event.preventDefault()
-
-    const myForm = event.target
-    const formData = new FormData(myForm)
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => {
-        setFormSuccess({ message: t('contact.form.success') })
-        console.log(t('contact.form.success'))
-      })
-      .catch(() => {
-        setFormError({ message: t('contact.form.error') })
-        console.log(t('contact.form.error'))
-      })
-  }
-
   return (
     <Layout>
       <Container>
-        <ContactCard />
-        <ContactForm handleSubmit={handleSubmit} formSuccess={formSuccess} formError={formError} />
-        <Faq />
-        <Newsletter />
+        <Heading />
+        <Contact />
+        <Testimonials testimonials={injected.testimonials} />
+        <InfoBox title={t('appointment.title')} description={t('appointment.description')}>
+          <SecondaryButton message={t('appointment.button')} link={'/'} />
+        </InfoBox>
+        <Faq faqs={injected.faqs} />
       </Container>
     </Layout>
   )

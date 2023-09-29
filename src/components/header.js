@@ -1,49 +1,39 @@
 import React from 'react'
-import injected from '../injected.json'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useTranslate } from '../hooks/useTranslate'
+import PrimaryButton from './button'
+import injected from '../injected.json'
 import { useRouter } from 'next/router'
-import Burger from './burger'
+import { useTranslate } from '../hooks/useTranslate'
 
-export default function Header({ setNavbarOpen, navbarOpen }) {
+export default function Header() {
   const { t } = useTranslate()
   const router = useRouter()
   return (
     <nav
       className={
-        'z-50 sticky top-0 mx-auto overflow-auto transition-all duration-300 ease-in-out bg-primary-700 text-white'
+        'z-50 sticky top-0 mx-auto overflow-auto transition-all duration-300 ease-in-out text-background-950 bg-text-50 shadow-sm'
       }
     >
-      <div className={`p-4 md:p-8 w-full max-w-screen-xl mx-auto`}>
+      <div className={`p-4 w-full max-w-screen-xl mx-auto`}>
         <div className='font-bold leading-normal w-full flex flex-row gap-2 items-center justify-between'>
           <Link href={'/'}>
-            <Image loading='lazy' width={130} height={160} src='/logo.png' alt={`Logo`} />
+            <Image loading='lazy' width={300} height={60} src='/logo.png' alt={`Logo`} />
           </Link>
-          <div className='hidden lg:flex flex-row gap-4 xl:gap-6 items-center'>
+
+          <div className='flex flex-row gap-4 items-center justify-end'>
             {injected.pages.map((item, index) => (
               <Link
                 key={index}
                 className={`${
-                  router.route === item.link ? 'underline-offset-8 underline' : ''
-                } text-white  hover:underline-offset-8 hover:underline cursor-pointer transition-all`}
+                  router.route === item.link ? 'border-b-2 border-primary-500' : ''
+                } text-background-950 cursor-pointer transition-all`}
                 href={item.link}
               >
                 {t(item.title)}
               </Link>
             ))}
-          </div>
-          <div className='block lg:hidden'>
-            <Link
-              href={'/'}
-              className='relative w-5 h-5 cursor-pointer'
-              onClick={(e) => {
-                e.preventDefault()
-                setNavbarOpen(!navbarOpen)
-              }}
-            >
-              <Burger navbarOpen={navbarOpen} />
-            </Link>
+            <PrimaryButton message='Contact' link='/contact' />
           </div>
         </div>
       </div>
