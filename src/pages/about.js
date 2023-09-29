@@ -15,6 +15,9 @@ export default function AboutUs() {
   const { t } = useTranslate()
   return (
     <Layout>
+      <div className='w-full bg-primary-500 text-text-50 text-xl md:text-4xl font-bold text-center py-10'>
+        <h2>{t('about.title')}</h2>
+      </div>
       <Container>
         <Heading />
         <SimpleGallery />

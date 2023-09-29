@@ -6,7 +6,6 @@ import Container from '../components/container'
 import InfoBox from '../components/infoBox'
 import { SecondaryButton } from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
-import Heading from '../components/heading'
 import MissionCard from '../components/card/mission'
 
 const missions = Array.from({ length: 7 })
@@ -15,8 +14,10 @@ export default function Services() {
   const { t } = useTranslate()
   return (
     <Layout>
+      <div className='w-full bg-primary-500 text-text-50 text-xl md:text-4xl font-bold text-center py-10'>
+        <h2>{t('services.title')}</h2>
+      </div>
       <Container>
-        <Heading />
         <div className='w-full my-5 flex flex-col items-center'>
           {missions.map((_, i) => (
             <MissionCard
