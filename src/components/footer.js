@@ -19,7 +19,18 @@ export default function Footer() {
               <Image loading='lazy' width={200} height={60} src='/logo-white.png' alt={`Logo`} />
             </Link>
           </div>
-          <div className='flex flex-row gap-4 xl:gap-6 items-center'>
+          <div className='flex flex-col md:flex-row gap-4 xl:gap-6 items-center'>
+            <div className='flex gap-2 flex-col items-center md:items-start lg:hidden'>
+              {injected.pages.map((item, index) => (
+                <Link
+                  key={index}
+                  className={`text-primary-500 text-xl hover:underline-offset-8 hover:underline cursor-pointer transition-all`}
+                  href={item.link}
+                >
+                  {t(item.title)}
+                </Link>
+              ))}
+            </div>
             <PrimaryButton message={t('footer.appointment')} link='/contact' />
           </div>
         </div>
