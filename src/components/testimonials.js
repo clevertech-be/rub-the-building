@@ -5,9 +5,9 @@ export default function Testimonials({ testimonials }) {
   const { t } = useTranslate()
   return (
     <section className='' id='testimonials'>
-      <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
+      <div className='py-4 px-2 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm mb-8 lg:mb-16'>
-          <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-black'>
+          <h2 className='mb-4 text-xl md:text-4xl tracking-tight font-extrabold text-black'>
             {t('home.testimonials.title')}
           </h2>
           <p className='font-light text-black/80 sm:text-xl '>
@@ -28,7 +28,7 @@ export default function Testimonials({ testimonials }) {
                 <figcaption className='flex justify-center items-center mt-6 space-x-3'>
                   <div className='flex items-center divide-x-2 divide-primary-500'>
                     <div className='pr-3 font-medium text-black'>{t(item.name)}</div>
-                    <div className='pl-3 text-sm font-light text-black/80 '>{t(item.role)}</div>
+                    <div className='pl-3 text-sm font-light text-black '>{t(item.role)}</div>
                   </div>
                 </figcaption>
               </figure>
