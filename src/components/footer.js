@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
       </div>
       <div className='p-6 md:p-8 w-full max-w-screen-xl mx-auto font-bold flex flex-col md:flex-row gap-10 md:gap-5 items-center md:items-start justify-between'>
-        <div className='flex flex-row justify-between items-center md:items-start gap-4 font-normal w-full'>
+        <div className='flex flex-col md:flex-row justify-between items-center md:items-start gap-4 font-normal w-full'>
           <div className='flex flex-col justify-between items-center md:items-start gap-4 font-normal'>
             <div className='flex gap-2 flex-col items-center md:items-start text-center'>
               <div className='font-bold'>{injected.companyName}</div>
@@ -72,8 +72,8 @@ export default function Footer() {
               </select>
             </div>
           </div>
-          <div className='flex flex-col gap-6 justify-end items-end text-xl text-primary-500 font-bold'>
-            <div className='flex flex-row gap-2'>
+          <div className='flex flex-col gap-6 items-center justify-between md:justify-end md:items-end text-xl text-primary-500 font-bold'>
+            <div className='flex flex-col items-center md:flex-row gap-2'>
               <Image
                 loading='lazy'
                 width={20}
@@ -83,7 +83,7 @@ export default function Footer() {
               />
               <Link href={`tel:+${injected.tel}`}>{injected.tel}</Link>
             </div>
-            <div className='flex flex-row gap-2'>
+            <div className='flex flex-col items-center md:flex-row gap-2'>
               <Image
                 loading='lazy'
                 width={20}

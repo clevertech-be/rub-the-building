@@ -45,7 +45,7 @@ export default function ContactForm({ handleSubmit }) {
           type='email'
           name='email'
           className='shadow-sm border-2 text-sm  bg-primary-400 text-background-950 focus:border-background-950 focus:ring-background-950 border-background-950 placeholder:text-background-950'
-          placeholder='name@clevertech.be'
+          placeholder='name@rubthebuilding.be'
           required
         />
       </div>

@@ -1,13 +1,13 @@
 {
   "keywords": ["clevertech", "web", "design", "logo", "agency", "digital", "marketing", "seo"],
-  "title": "Clevertech digital agency",
-  "description": "Clevertech digital agency",
+  "title": "Rub The building",
+  "description": "Rub The building",
   "buisinessHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
   "manifest": {
-    "projectShortName": "Clevertech digital agency",
+    "projectShortName": "Rub The building",
     "themeColor": "#DC2028",
     "url": "https://www.clevertech.be/",
-    "description": "Clevertech digital agency",
+    "description": "Rub The building",
     "display": "standalone",
     "orientation": "portrait",
     "backgroundColor": "#DC2028"
@@ -193,9 +193,9 @@
     "url": "https://goo.gl/maps/3PUt1WiDQX2icvds5",
     "address": "Chau. de Wavre 1341, 1160 Auderghem, Belgique"
   },
-  "companyName": "Clevertech SRL",
+  "companyName": "Rub The Building SRL",
   "tel": "+32488203567",
-  "email": "contact@clevertech.be",
+  "email": "contact@rubthebuilding.be",
   "tva": "BE 2220.556.668",
   "locales": ["fr", "nl", "en"],
   "defaultLocale": "en",

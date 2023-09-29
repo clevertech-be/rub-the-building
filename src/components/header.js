@@ -27,7 +27,7 @@ export default function Header() {
                 key={index}
                 className={`${
                   router.route === item.link ? 'border-b-2 border-primary-500' : ''
-                } text-background-950 cursor-pointer transition-all`}
+                } text-background-950 cursor-pointer transition-all hidden md:block`}
                 href={item.link}
               >
                 {t(item.title)}
