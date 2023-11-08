@@ -9,7 +9,6 @@ import { SecondaryButton } from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
 import Heading from '../components/heading'
 import SimpleGallery from '../components/simpleGallery'
-import SocialProof from '../components/socialProof'
 
 export default function AboutUs() {
   const { t } = useTranslate()
@@ -22,9 +21,6 @@ export default function AboutUs() {
         <Heading />
         <SimpleGallery />
       </Container>
-      <div>
-        <SocialProof />
-      </div>
       <Container>
         <Testimonials testimonials={injected.testimonials} />
         <InfoBox title={t('appointment.title')} description={t('appointment.description')}>

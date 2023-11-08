@@ -67,48 +67,21 @@
       "description": "service.4.description",
       "icon": "/icons/services/1.svg",
       "link": "/services#service4"
-    },
-    {
-      "title": "service.5.title",
-      "description": "service.5.description",
-      "icon": "/icons/services/1.svg",
-      "link": "/services#service5"
-    },
-    {
-      "title": "service.6.title",
-      "description": "service.6.description",
-      "icon": "/icons/services/1.svg",
-      "link": "/services#service6"
-    },
-    {
-      "title": "service.7.title",
-      "description": "service.7.description",
-      "icon": "/icons/services/1.svg",
-      "link": "/services#service7"
-    },
-    {
-      "title": "service.8.title",
-      "description": "service.8.description",
-      "icon": "/icons/services/1.svg",
-      "link": "/services#service8"
     }
   ],
   "testimonials": [
     {
       "name": "testimonial.1.name",
-      "avatar": "/images/testimonials/bonnie-green.png",
       "role": "testimonial.1.role",
       "testimonial": "testimonial.1.description"
     },
     {
       "name": "testimonial.2.name",
-      "avatar": "/images/testimonials/bonnie-green.png",
       "role": "testimonial.2.role",
       "testimonial": "testimonial.2.description"
     },
     {
       "name": "testimonial.3.name",
-      "avatar": "/images/testimonials/bonnie-green.png",
       "role": "testimonial.3.role",
       "testimonial": "testimonial.3.description"
     }
@@ -175,20 +148,7 @@
       "link": "https://www.linkedin.com/clevertech"
     }
   ],
-  "sla": [
-    {
-      "title": "Privacy Policy",
-      "link": "/policy/privacy"
-    },
-    {
-      "title": "Terms Policy",
-      "link": "/policy/terms"
-    },
-    {
-      "title": "Cookie Policy",
-      "link": "/policy/cookie"
-    }
-  ],
+  "sla": [],
   "address": {
     "url": "https://goo.gl/maps/3PUt1WiDQX2icvds5",
     "address": "Chau. de Wavre 1341, 1160 Auderghem, Belgique"

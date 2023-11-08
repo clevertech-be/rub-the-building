@@ -109,17 +109,7 @@ export default function Footer() {
       </div>
       <div className='bg-primary-500 w-full text-background-950'>
         <div className='p-6 md:p-8 mx-auto font-bold leading-normal max-w-screen-xl flex flex-col md:flex-row gap-4 justify-center items-center text-xs md:text-base'>
-          <div className='flex flex-row items-center gap-2'>
-            {injected.sla.map((item, index) => (
-              <Link
-                key={index}
-                className='font-normal hover:font-bold transition-all ease-in-out duration-300 hover:underline hover:underline-offset-8'
-                href={item.link}
-              >
-                {item.title}
-              </Link>
-            ))}
-          </div>
+          <div className='flex flex-row items-center gap-2'></div>
         </div>
       </div>
     </footer>

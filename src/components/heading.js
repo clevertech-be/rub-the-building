@@ -20,14 +20,10 @@ export default function Heading() {
           </div>
         </div>
         <div className='grid grid-cols-2 gap-4 mt-8'>
-          <img
-            className='w-full '
-            src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
-            alt='office content 1'
-          />
+          <img className='w-full ' src='/images/gallery/gallery1.jpg' alt='office content 1' />
           <img
             className='mt-4 w-full lg:mt-10 '
-            src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
+            src='/images/gallery/gallery3.jpg'
             alt='office content 2'
           />
         </div>

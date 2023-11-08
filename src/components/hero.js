@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useTranslate } from '../hooks/useTranslate'
-import PrimaryButton, { SecondaryButton } from './button'
+import { SecondaryButton } from './button'
 
 export default function Hero() {
   const { t } = useTranslate()
@@ -20,8 +20,7 @@ export default function Hero() {
             {t('home.hero.description')}
           </p>
           <div className='flex flex-row gap-4 items-center'>
-            <PrimaryButton link={'/contact'} message={'Contact us'} />
-            <SecondaryButton link={'/contact'} message={'Contact us'} />
+            <SecondaryButton link={'/contact'} message={t('home.hero.contact')} />
           </div>
         </div>
         <div className='hidden lg:mt-0 lg:col-span-5 lg:flex'>

@@ -17,7 +17,7 @@ export default function Faq({ faqs }) {
             data-inactive-classes='text-black/60'
           >
             {faqs.map((item, index) => (
-              <>
+              <div key={index}>
                 <h2 id={`faq-flush-heading-${index + 1}`}>
                   <button
                     type='button'
@@ -45,7 +45,7 @@ export default function Faq({ faqs }) {
                     <p className='mb-2 text-black'>{t(item.description)}</p>
                   </div>
                 </div>
-              </>
+              </div>
             ))}
           </div>
         </div>

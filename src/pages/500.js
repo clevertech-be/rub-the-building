@@ -1,25 +1,25 @@
+import Link from 'next/link'
+import { useTranslate } from '../hooks/useTranslate'
+
 export default function Maintenance() {
+  const { t } = useTranslate()
   return (
     <section className=''>
       <div className='grid-cols-2 gap-8 content-center py-8 px-4 mx-auto max-w-screen-xl md:grid lg:py-16 lg:px-6'>
         <div className='self-center'>
-          <h1 className='mb-4 text-2xl font-bold text-black'>500 Internal Error</h1>
+          <h1 className='mb-4 text-2xl font-bold text-black'>{t('maintenance.title')}</h1>
           <p className='mb-4 text-3xl tracking-tight font-bold lg:mb-10 md:text-4xl text-black'>
-            Whoops! That page doesn’t exist.
+            {t('maintenance.description')}
           </p>
-          <p className='mb-4 text-black/80 '>Here are some helpful links:</p>
-          <ul className='flex items-center space-x-4 text-black/80 '>
-            <li>
-              <a href='#' className='underline underline-offset-4 hover:text-primary-400'>
-                Support
-              </a>
-            </li>
-            <li>
-              <a href='#' className='underline underline-offset-4 hover:text-primary-400'>
-                Search
-              </a>
-            </li>
-          </ul>
+          <p className='mb-10 text-3xl tracking-tight font-bold text-black md:text-4x'>
+            {t('notfound.message')}
+          </p>
+          <Link
+            className='mb-4 text-primary-600 border-b-2 py-2 border-transparent hover:border-primary-600 transition-all ease-in-out duration-300'
+            href={'/'}
+          >
+            {t('notfound.back')}
+          </Link>
         </div>
         <img
           className='hidden mx-auto mb-4 md:flex'

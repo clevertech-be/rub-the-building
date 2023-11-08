@@ -8,7 +8,7 @@ import { SecondaryButton } from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
 import MissionCard from '../components/card/mission'
 
-const missions = Array.from({ length: 7 })
+const missions = Array.from({ length: 4 })
 
 export default function Services() {
   const { t } = useTranslate()
@@ -26,7 +26,7 @@ export default function Services() {
               index={i + 1}
               inverted={(i + 1) % 2 === 1}
               title={t(`mission.${i + 1}.title`)}
-              image={`/images/services/mission${i + 1}.png`}
+              image={`/images/services/mission${i + 1}.jpg`}
             />
           ))}
         </div>
