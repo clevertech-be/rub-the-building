@@ -8,7 +8,7 @@ import { SecondaryButton } from '../components/button'
 import { useTranslate } from '../hooks/useTranslate'
 import MissionCard from '../components/card/mission'
 
-const missions = Array.from({ length: 4 })
+const missions = Array.from({ length: 5 })
 
 export default function Services() {
   const { t } = useTranslate()

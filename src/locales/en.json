@@ -3,36 +3,29 @@
   "link.about": "About",
   "link.contact": "Contact",
   "link.services": "Services",
-
   "home.hero.contact": "Contact Us",
   "appointment.title": "Book an Appointment",
   "appointment.description": "We are here to help you. Call us or send us an email and we will get back to you as soon as possible",
   "appointment.button": "Get in touch",
-
   "home.hero.preTitle": "Sparkling Spaces, Professional Grace",
   "home.hero.title": "Rub The Building: Your Cleaning Experts",
   "home.hero.description": "Welcome to Rub The Building, where cleanliness meets professionalism. Our dedicated team is committed to providing top-notch cleaning services across Belgium. From small offices to large commercial spaces, we ensure a spotless, healthy, and welcoming environment for your business.",
-
   "home.usp.label": "Why Rub The Building?",
   "home.usp.title": "We are the best in the business",
   "home.usp.description": "Rub The Building stands out in the cleaning industry for several key reasons. We are more than just a cleaning service; we are your partners in maintaining a pristine environment.",
-
   "usp1.title": "Eco-Friendly Cleaning Solutions",
   "usp1.description": "We prioritize the planet by using environmentally friendly cleaning products that are safe for your team and the environment.",
   "usp2.title": "Customized Cleaning Plans",
   "usp2.description": "Understanding that each space is unique, we offer customized cleaning plans tailored to your specific needs and schedules.",
   "usp3.title": "Highly Trained Staff",
   "usp3.description": "Our team consists of experienced and trained professionals who are dedicated to delivering high-quality cleaning services.",
-
   "home.heading.label": "About Rub The Building",
   "home.heading.title": "Dedicated to Cleanliness, Committed to Excellence",
   "home.heading.description.1": "At Rub The Building, we bring over a decade of cleaning expertise to your doorstep. Our skilled professionals use the latest techniques and eco-friendly products to deliver exceptional cleaning services.",
   "home.heading.description.2": "We pride ourselves on reliability, attention to detail, and a personalized approach to meet the unique needs of each client.",
   "home.heading.button": "Learn More",
-
   "home.services.title": "Our Cleaning Services",
   "home.services.description": "Rub The Building offers a comprehensive range of cleaning services to cater to various needs. Each service is carried out with the utmost professionalism and attention to detail.",
-
   "service.1.title": "General Cleaning",
   "service.1.description": "Complete cleaning solutions for offices, homes, and commercial spaces, ensuring a clean and hygienic environment.",
   "service.2.title": "Window Cleaning",
@@ -41,7 +34,6 @@
   "service.3.description": "Specialized cleaning services for large office spaces, focusing on thoroughness and minimal disruption.",
   "service.4.title": "Post-Construction Cleaning",
   "service.4.description": "Detailed cleaning services for post-construction sites, removing all traces of construction debris and dust.",
-
   "mission.1.title": "General Cleaning",
   "mission.1.description": "Our General Cleaning service is the cornerstone of what we do at Rub The Building. Tailored to fit each client's specific needs, this service covers everything from dusting and vacuuming to sanitizing restrooms and kitchens. We focus on high-traffic areas and touchpoints to reduce the spread of germs, especially important in today’s health-conscious world. Our team uses a checklist to ensure no detail is overlooked, offering a thorough clean that maintains the professionalism of your space. Whether it’s a small office, a large corporate building, or your home, our general cleaning service is adaptable to any environment, ensuring a consistently clean and welcoming atmosphere.",
   "mission.2.title": "Window Cleaning",
@@ -50,7 +42,15 @@
   "mission.3.description": "Our Large Office Cleaning service is designed to maintain the cleanliness and professionalism of your workspace. We understand that large offices have unique cleaning needs, often requiring strategic planning to minimize disruption. Our team works efficiently to cover all areas, from individual workstations and common areas to conference rooms and restrooms. We offer after-hours cleaning to ensure that your operations remain uninterrupted. Our service includes deep cleaning of carpets, meticulous dusting of technology and equipment, and sanitation of high-contact surfaces. We also offer customizable plans to address specific concerns like allergen reduction or focusing on employee wellness areas. With Rub The Building taking care of your office cleanliness, you can provide a healthy and inviting environment for your employees and clients.",
   "mission.4.title": "Post-Construction Cleaning",
   "mission.4.description": "Post-construction cleaning is crucial in transforming a construction site into a polished and safe space. Our service covers all aspects of construction cleanup, from removing debris and dust to polishing surfaces and cleaning windows. We handle the tough dirt and grime often left behind after construction work, ensuring that the new space is habitable and presentable. Our team is equipped with the necessary tools and expertise to tackle the challenges of post-construction cleaning safely and efficiently. This service is not just about making the space look good but also about ensuring that it meets safety and hygiene standards. Whether it's a new build or a renovation, our post-construction cleaning service lays the groundwork for you to begin your operations in a clean, fresh, and welcoming environment.",
-
+  "mission.5.title": "Moving and End of Lease Cleaning",
+  "mission.5.description": "Moving is a stressful process, and end of lease cleaning can be an overwhelming task. Our Moving and End of Lease Cleaning service is designed to help you focus on your new home or office, leaving the cleaning to our team. We take care of everything from dusting and vacuuming to cleaning windows and floors. We ensure your old space is spotless, ready for the next tenant or owner. Our team is equipped with the necessary tools and products for deep cleaning of spaces, removing stains and odors. We focus on high-traffic areas and touchpoints to reduce the spread of germs, particularly important in today's health-conscious world. With our moving and end of lease cleaning service, you can concentrate on your new home or office, knowing your old space is in impeccable condition.",
+  "service.5.title": "Moving and End of Lease Cleaning",
+  "service.5.description": "Comprehensive cleaning services for homes and offices, ensuring your old space is spotless.",
+  "home.testimonials.next": "Next",
+  "home.testimonials.previous": "Previous",
+  "policy.cookie.title": "This website uses cookies to improve user experience.",
+  "policy.cookie.text": "By using our website you consent to all cookies in accordance with our ",
+  "policy.cookie.page": "Cookie policy",
   "home.contact.title": "Contact Us",
   "home.contact.description": "We are here to help you. Call us or send us an email and we will get back to you as soon as possible",
   "contact.form.email": "Email",
@@ -67,7 +67,6 @@
   "contact.form.submit": "Send",
   "contact.form.success": "Your message has been sent successfully.",
   "contact.form.title": "Contact us",
-
   "home.faq.title": "Frequently Asked Questions",
   "faq.1.title": "Do you use eco-friendly cleaning products?",
   "faq.1.description": "Yes, we use environmentally friendly products that are effective and safe for both the environment and the people in your space.",
@@ -79,18 +78,10 @@
   "faq.4.description": "Yes, we provide both one-time and regular cleaning services based on your needs.",
   "faq.5.title": "How do you ensure quality in your cleaning services?",
   "faq.5.description": "YWe have a quality control process in place that includes regular inspections and client feedback to continuously improve our services.",
-
   "home.gallery.title": "Our Gallery",
   "home.gallery.description": "We are proud of our work and the results we deliver. Take a look at some of our recent projects.",
-
-  "policy.cookie.title": "This website uses cookies to improve user experience.",
-  "policy.cookie.text": "By using our website you consent to all cookies in accordance with our ",
-  "policy.cookie.page": "Cookie policy",
-
   "home.testimonials.title": "What Our Clients Say",
   "home.testimonials.description": "We are proud of our work and the results we deliver. Take a look at some of our recent projects.",
-  "home.testimonials.next": "Next",
-  "home.testimonials.previous": "Previous",
   "testimonial.1.name": "Malika",
   "testimonial.1.role": "Office Manager",
   "testimonial.1.description": "Rub The Building transformed our office space. Their attention to detail is unmatched, and they always go the extra mile.",
@@ -100,21 +91,17 @@
   "testimonial.3.name": "Marc",
   "testimonial.3.role": "Project Manager",
   "testimonial.3.description": "Post-construction, our site was a mess. Rub The Building made it spotless, quickly and efficiently.",
-
   "home.title": "Home",
-  "home.meta.title": "Rub the building | Home",
+  "home.meta.title": "Home",
   "home.meta.description": "Rub The Building is a leading cleaning service provider in Belgium. We offer a comprehensive range of cleaning services for offices, homes, and commercial spaces.",
-
   "about.title": "About Us",
-  "about.meta.title": "Rub the building | About Us",
+  "about.meta.title": "About Us",
   "about.meta.description": "Rub The Building is a leading cleaning service provider in Belgium. We offer a comprehensive range of cleaning services for offices, homes, and commercial spaces.",
-
   "services.title": "Our Services",
-  "services.meta.title": "Rub the building | Our Services",
+  "services.meta.title": "Our Services",
   "services.meta.description": "Rub The Building offers a comprehensive range of cleaning services to cater to various needs. Each service is carried out with the utmost professionalism and attention to detail.",
-
   "contact.title": "Contact Us",
-  "contact.meta.title": "Rub the building | Contact Us",
+  "contact.meta.title": "Contact Us",
   "contact.meta.description": "We are here to help you. Call us or send us an email and we will get back to you as soon as possible",
 
   "notfound.title": "Page not found",
@@ -124,7 +111,6 @@
   "maintenance.title": "Under maintenance",
   "maintenance.message": "We are currently under maintenance. We will be back soon.",
   "maintenance.back": "Go back to home",
-
   "footer.appointment": "Book an Appointment",
   "footer.business.hours": "Business Hours"
 }

@@ -3,36 +3,29 @@
   "link.about": "À Propos",
   "link.contact": "Contact",
   "link.services": "Services",
-
   "home.hero.contact": "Contactez-Nous",
   "appointment.title": "Prenez un Rendez-Vous",
   "appointment.description": "Nous sommes là pour vous aider. Appelez-nous ou envoyez-nous un email et nous vous répondrons dès que possible",
   "appointment.button": "Entrer en Contact",
-
   "home.hero.preTitle": "Espaces Étincelants, Professionnalisme Gracieux",
   "home.hero.title": "Rub The Building : Vos Experts en Nettoyage",
   "home.hero.description": "Bienvenue chez Rub The Building, où la propreté rencontre le professionnalisme. Notre équipe dédiée s'engage à fournir des services de nettoyage de premier ordre à travers la Belgique. Des petits bureaux aux grands espaces commerciaux, nous assurons un environnement impeccable, sain et accueillant pour votre entreprise.",
-
   "home.usp.label": "Pourquoi Choisir Rub The Building ?",
   "home.usp.title": "Nous sommes les meilleurs dans le domaine",
   "home.usp.description": "Rub The Building se distingue dans l'industrie du nettoyage pour plusieurs raisons clés. Nous sommes plus qu'un service de nettoyage ; nous sommes vos partenaires dans le maintien d'un environnement immaculé.",
-
   "usp1.title": "Solutions de Nettoyage Écologiques",
   "usp1.description": "Nous donnons la priorité à la planète en utilisant des produits de nettoyage respectueux de l'environnement qui sont sûrs pour votre équipe et l'environnement.",
   "usp2.title": "Plans de Nettoyage Personnalisés",
   "usp2.description": "Comprendre que chaque espace est unique, nous offrons des plans de nettoyage personnalisés adaptés à vos besoins et horaires spécifiques.",
   "usp3.title": "Personnel Hautement Qualifié",
   "usp3.description": "Notre équipe est composée de professionnels expérimentés et formés qui se consacrent à fournir des services de nettoyage de haute qualité.",
-
   "home.heading.label": "À Propos de Rub The Building",
   "home.heading.title": "Dédié à la Propreté, Engagé pour l'Excellence",
   "home.heading.description.1": "Chez Rub The Building, nous apportons plus d'une décennie d'expertise en nettoyage à votre porte. Nos professionnels qualifiés utilisent les dernières techniques et produits écologiques pour fournir des services de nettoyage exceptionnels.",
   "home.heading.description.2": "Nous sommes fiers de notre fiabilité, de notre attention aux détails et de notre approche personnalisée pour répondre aux besoins uniques de chaque client.",
   "home.heading.button": "En Savoir Plus",
-
   "home.services.title": "Nos Services de Nettoyage",
   "home.services.description": "Rub The Building offre une gamme complète de services de nettoyage pour répondre à divers besoins. Chaque service est réalisé avec le plus grand professionnalisme et une attention particulière aux détails.",
-
   "service.1.title": "Nettoyage Général",
   "service.1.description": "Solutions de nettoyage complètes pour bureaux, maisons et espaces commerciaux, garantissant un environnement propre et hygiénique.",
   "service.2.title": "Nettoyage de Vitres",
@@ -41,7 +34,8 @@
   "service.3.description": "Services de nettoyage spécialisés pour de grands espaces de bureaux, en se concentrant sur la minutie et une perturbation minimale.",
   "service.4.title": "Nettoyage Post-Construction",
   "service.4.description": "Services de nettoyage détaillés pour les sites post-construction, éliminant toutes traces de débris de construction et de poussière.",
-
+  "service.5.title": "Déménagement et Nettoyage de Fin de Bail",
+  "service.5.description": "Services de nettoyage complets pour les maisons et les bureaux, garantissant que votre ancien espace est impeccable.",
   "mission.1.title": "Nettoyage Général",
   "mission.1.description": "Notre service de Nettoyage Général est la pierre angulaire de ce que nous faisons chez Rub The Building. Adapté aux besoins spécifiques de chaque client, ce service couvre tout, du dépoussiérage et de l'aspiration à la désinfection des toilettes et des cuisines. Nous nous concentrons sur les zones à forte circulation et les points de contact pour réduire la propagation des germes, particulièrement important dans le monde soucieux de la santé d'aujourd'hui. Notre équipe utilise une liste de contrôle pour s'assurer qu'aucun détail n'est négligé, offrant un nettoyage approfondi qui maintient le professionnalisme de votre espace. Que ce soit pour un petit bureau, un grand bâtiment d'entreprise ou votre maison, notre service de nettoyage général est adaptable à tout environnement, garantissant une atmosphère constamment propre et accueillante.",
   "mission.2.title": "Nettoyage de Vitres",
@@ -50,11 +44,11 @@
   "mission.3.description": "Notre service de Nettoyage de Grands Bureaux est conçu pour maintenir la propreté et le professionnalisme de votre espace de travail. Nous comprenons que les grands bureaux ont des besoins de nettoyage uniques, nécessitant souvent une planification stratégique pour minimiser les perturbations. Notre équipe travaille efficacement pour couvrir toutes les zones, des postes de travail individuels et des espaces communs aux salles de conférence et aux toilettes. Nous proposons un nettoyage en dehors des heures ouvrables pour garantir que vos opérations restent ininterrompues. Notre service comprend un nettoyage en profondeur des tapis, un dépoussiérage méticuleux de la technologie et de l'équipement, et la désinfection des surfaces à contact élevé. Nous proposons également des plans personnalisables pour répondre à des préoccupations spécifiques telles que la réduction des allergènes ou se concentrer sur les zones de bien-être des employés. Avec Rub The Building prenant soin de la propreté de votre bureau, vous pouvez offrir un environnement sain et invitant à vos employés et clients.",
   "mission.4.title": "Nettoyage Post-Construction",
   "mission.4.description": "Le nettoyage post-construction est crucial pour transformer un site de construction en un espace poli et sûr. Notre service couvre tous les aspects du nettoyage après construction, de l'élimination des débris et de la poussière au polissage des surfaces et au nettoyage des fenêtres. Nous gérons la saleté et la crasse souvent laissées après les travaux de construction, garantissant que le nouvel espace est habitable et présentable. Notre équipe est équipée des outils et de l'expertise nécessaires pour relever les défis du nettoyage post-construction de manière sûre et efficace. Ce service ne consiste pas seulement à rendre l'espace beau, mais aussi à garantir qu'il respecte les normes de sécurité et d'hygiène. Que ce soit pour une nouvelle construction ou une rénovation, notre service de nettoyage post-construction prépare le terrain pour que vous puissiez commencer vos opérations dans un environnement propre, frais et accueillant.",
-
+  "mission.5.title": "Déménagement et Nettoyage de Fin de Bail",
+  "mission.5.description": "Le déménagement est un processus stressant, et le nettoyage de fin de bail peut être une tâche écrasante. Notre service de Déménagement et Nettoyage de Fin de Bail est conçu pour vous aider à vous concentrer sur votre nouvelle maison ou bureau, en laissant le nettoyage à notre équipe. Nous nous occupons de tout, du dépoussiérage et de l'aspiration au nettoyage des fenêtres et des sols. Nous nous assurons que votre ancien espace est impeccable, prêt pour le prochain locataire ou propriétaire. Notre équipe est équipée des outils et des produits nécessaires pour nettoyer en profondeur les espaces, en éliminant les taches et les odeurs. Nous nous concentrons sur les zones à forte circulation et les points de contact pour réduire la propagation des germes, particulièrement important dans le monde soucieux de la santé d'aujourd'hui. Avec notre service de déménagement et de nettoyage de fin de bail, vous pouvez vous concentrer sur votre nouvelle maison ou bureau, en sachant que votre ancien espace est impeccable.",
   "policy.cookie.title": "Ce site utilise des cookies pour améliorer l'expérience de l'utilisateur.",
   "policy.cookie.text": "En utilisant notre site Web, vous consentez à l'utilisation de tous les cookies conformément à notre ",
   "policy.cookie.page": "Politique de cookies",
-
   "home.contact.title": "Contactez-Nous",
   "home.contact.description": "Nous sommes là pour vous aider. Appelez-nous ou envoyez-nous un email et nous vous répondrons dès que possible",
   "contact.form.email": "Email",
@@ -71,7 +65,8 @@
   "contact.form.submit": "Envoyer",
   "contact.form.success": "Votre message a été envoyé avec succès.",
   "contact.form.title": "Contactez-nous",
-
+  "home.testimonials.next": "Suivant",
+  "home.testimonials.previous": "Précédent",
   "home.faq.title": "Questions Fréquemment Posées",
   "faq.1.title": "Utilisez-vous des produits de nettoyage écologiques ?",
   "faq.1.description": "Oui, nous utilisons des produits respectueux de l'environnement qui sont efficaces et sûrs pour l'environnement et les personnes dans votre espace.",
@@ -83,14 +78,10 @@
   "faq.4.description": "Oui, nous fournissons des services de nettoyage ponctuels et réguliers en fonction de vos besoins.",
   "faq.5.title": "Comment assurez-vous la qualité dans vos services de nettoyage ?",
   "faq.5.description": "Nous avons un processus de contrôle de la qualité en place qui comprend des inspections régulières et des retours de clients pour améliorer continuellement nos services.",
-
   "home.gallery.title": "Notre Galerie",
   "home.gallery.description": "Nous sommes fiers de notre travail et des résultats que nous livrons. Jetez un œil à certains de nos projets récents.",
-
   "home.testimonials.title": "Ce que nos clients disent",
   "home.testimonials.description": "Nous sommes fiers de notre travail et des résultats que nous livrons. Jetez un œil à certains de nos projets récents.",
-  "home.testimonials.next": "Suivant",
-  "home.testimonials.previous": "Précédent",
   "testimonial.1.name": "Malika",
   "testimonial.1.role": "Responsable de Bureau",
   "testimonial.1.description": "Rub The Building a transformé notre espace de bureau. Leur souci du détail est inégalé, et ils vont toujours plus loin.",
@@ -100,23 +91,18 @@
   "testimonial.3.name": "Marc",
   "testimonial.3.role": "Chef de Projet",
   "testimonial.3.description": "Après la construction, notre site était un désordre. Rub The Building l'a rendu impeccable, rapidement et efficacement.",
-
   "home.title": "Accueil",
-  "home.meta.title": "Rub the building | Accueil",
+  "home.meta.title": "Accueil",
   "home.meta.description": "Rub The Building est un fournisseur de services de nettoyage de premier plan en Belgique. Nous proposons une gamme complète de services de nettoyage pour bureaux, maisons et espaces commerciaux.",
-
   "about.title": "À propos de nous",
-  "about.meta.title": "Rub the building | À propos de nous",
+  "about.meta.title": "À propos de nous",
   "about.meta.description": "Rub The Building est un fournisseur de services de nettoyage de premier plan en Belgique. Nous proposons une gamme complète de services de nettoyage pour bureaux, maisons et espaces commerciaux.",
-
   "services.title": "Nos Services",
-  "services.meta.title": "Rub the building | Nos Services",
+  "services.meta.title": "Nos Services",
   "services.meta.description": "Rub The Building propose une gamme complète de services de nettoyage pour répondre à divers besoins. Chaque service est effectué avec le plus grand professionnalisme et attention aux détails.",
-
   "contact.title": "Contactez-nous",
-  "contact.meta.title": "Rub the building | Contactez-nous",
+  "contact.meta.title": "Contactez-nous",
   "contact.meta.description": "Nous sommes là pour vous aider. Appelez-nous ou envoyez-nous un email et nous vous répondrons dès que possible",
-
   "notfound.title": "Page non trouvée",
   "notfound.message": "La page que vous recherchez n'existe pas.",
   "notfound.back": "Retourner à l'accueil",
@@ -124,7 +110,6 @@
   "maintenance.title": "En maintenance",
   "maintenance.message": "Nous sommes actuellement en maintenance. Nous reviendrons bientôt.",
   "maintenance.back": "Retourner à l'accueil",
-
   "footer.appointment": "Prenez un Rendez-vous",
   "footer.business.hours": "Horaires d'ouverture"
 }

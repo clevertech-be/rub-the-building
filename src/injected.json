@@ -67,6 +67,12 @@
       "description": "service.4.description",
       "icon": "/icons/services/1.svg",
       "link": "/services#service4"
+    },
+    {
+      "title": "service.5.title",
+      "description": "service.5.description",
+      "icon": "/icons/services/1.svg",
+      "link": "/services#service5"
     }
   ],
   "testimonials": [

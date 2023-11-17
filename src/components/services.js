@@ -12,7 +12,7 @@ export default function Services({ services }) {
           </h2>
           <p className='font-light sm:text-xl'>{t('home.services.description')}</p>
         </div>
-        <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0'>
+        <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:gap-8 xl:gap-8 md:space-y-0'>
           {services.map((service, index) => (
             <div className='p-6 bg-background-950 rounded shadow' key={index}>
               <div className='flex justify-center items-center mb-4 w-10 h-10 rounded lg:h-12 lg:w-12'>
