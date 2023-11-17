@@ -5,12 +5,12 @@
   "buisinessHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
   "manifest": {
     "projectShortName": "Rub The building",
-    "themeColor": "#DC2028",
+    "themeColor": "#FCFCFC",
     "url": "https://www.clevertech.be/",
     "description": "Rub The building",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#DC2028"
+    "backgroundColor": "#FCFCFC"
   },
   "gtag": "G-Z095KYFW6Z",
   "pages": [

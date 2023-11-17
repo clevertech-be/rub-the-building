@@ -50,9 +50,9 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#DC2028",
+  "background_color": "#FCFCFC",
   "orientation": "portrait",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#DC2028"
+  "theme_color": "#FCFCFC"
 }
